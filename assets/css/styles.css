@@ -15,6 +15,20 @@
 .game-justdance .game-art{background:linear-gradient(145deg,#73369b,#20a8aa)}
 .game-forhonor .game-art{background:linear-gradient(145deg,#8a6d46,#303642)}
 .game-splinterlands .game-art{background:linear-gradient(145deg,#263e70,#704d35)}
+
+@media(max-width:760px){
+  .hero{overflow:hidden}
+  .hero-visual{right:-24px;width:390px;height:390px}
+  .qa-console{right:-8px;width:min(330px,86vw)}
+  .orbit-one{right:-30px}
+  .hero-grid{min-width:0}
+  .hero-actions .button{width:100%}
+  .hero-links{row-gap:14px}
+  .game-art{overflow:hidden}
+  .contact-panel a{grid-template-columns:78px minmax(0,1fr) 20px}
+  .contact-panel b{overflow-wrap:anywhere}
+  .tool{min-width:0}
+}
 .cricket-field{position:absolute;inset:0}
 .cricket-field i:first-child{position:absolute;width:210px;height:210px;border:1px solid rgba(220,255,202,.25);border-radius:50%;left:50%;top:58%;transform:translate(-50%,-50%)}
 .cricket-field i:last-child{position:absolute;width:2px;height:150px;background:rgba(240,255,225,.7);left:50%;top:28%;transform:rotate(42deg);transform-origin:bottom}
