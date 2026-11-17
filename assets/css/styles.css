@@ -32,3 +32,16 @@
 .cricket-field{position:absolute;inset:0}
 .cricket-field i:first-child{position:absolute;width:210px;height:210px;border:1px solid rgba(220,255,202,.25);border-radius:50%;left:50%;top:58%;transform:translate(-50%,-50%)}
 .cricket-field i:last-child{position:absolute;width:2px;height:150px;background:rgba(240,255,225,.7);left:50%;top:28%;transform:rotate(42deg);transform-origin:bottom}
+html{overflow-x:hidden}
+@media(max-width:760px){
+  .hero-visual{right:-80px;width:390px}
+  .hero-visual .qa-console{right:-24px;width:330px}
+  .hero{overflow:hidden}
+  .hero-grid{overflow:visible}
+  .nav{width:calc(100% - 32px)}
+  .game-info{height:auto;min-height:145px}
+  .stats-grid strong{max-width:100%}
+  .contact-grid{min-width:0}
+  .contact-panel{min-width:0}
+  .contact-panel a{min-width:0}
+}
